@@ -49,3 +49,4 @@ jobs:
             docker rm springboot-app || true
 
             docker run -d -p 8080:8080 --name springboot-app tufankarmakar/springboot-images-new:latest
+            docker image prune -af
