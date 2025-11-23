@@ -11,7 +11,8 @@ public class TufanApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome TUFAN ...";
+		System.out.println("This is a normal log");
+		return "Welcome TUFAN ...hello";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(TufanApplication.class, args);
