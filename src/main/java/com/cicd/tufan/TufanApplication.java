@@ -12,7 +12,7 @@ public class TufanApplication {
 	@GetMapping("/welcome")
 	public String welcome(){
 		System.out.println("This is a normal log");
-		return "Welcome TUFAN ...hello";
+		return "Welcome TUFAN ...hello boy";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(TufanApplication.class, args);
